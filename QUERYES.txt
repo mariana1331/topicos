@@ -1,0 +1,10 @@
+INSERT INTO categoria(idcategoria, nombre_categoria) VALUES(NULL, 'VINOS')
+
+INSERT INTO articulo(idarticulo, idcategoria, articulo, descripcion_corta, descripcion_completa, precio, existencias, fecha_registro, imagen) VALUES(NULL, 1, 'Almost Pwdr SPF15 Fair Clinique 9 gr.', 'Color: Proporciona un acabado natural, ligeramente mate debido a los polvos.
+Tipo de producto: Rostro.', 'Base de maquillaje en crema.
+Color: Proporciona un acabado natural, ligeramente mate debido a los polvos.
+Tipo de producto: Rostro.
+Ingredientes: Contiene difusores ópticos que suavizan las líneas de expresión y consiguen un aspecto fresco y perfecto.
+Capacidad: 10 gm.
+Presentación: Base de Maquillaje.
+Género: Mujer.', 485.00, 1, '2014/04/26', 'productos/belleza/Base de maquillaje en crema.jpg');
