@@ -42,25 +42,59 @@
     <a class="brand" href="./">e-Shop</a>
 		
     <ul id="topMenu" class="nav pull-right">
-    	<li class=""><a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-primary">Registro</span></a></li>
-	 <li class="">
-	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
-	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
+    	<li>
+			<a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Iniciar Sesión</span></a>
+    	</li>
+	 	<li>
+    		<a href="#registro" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-primary">Registro</span></a>
+		</li>
+	<div id="registro" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="registro" aria-hidden="false" >
 		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-			<h3>Login Block</h3>
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h3>Registro</h3>
 		  </div>
 		  <div class="modal-body">
 			<form class="form-horizontal loginFrm">
 			  <div class="control-group">								
-				<input type="text" id="inputEmail" placeholder="Email">
+				<input type="text" id="nuevo_nombre_usuario" placeholder="Nombre de Usuario">
 			  </div>
 			  <div class="control-group">
-				<input type="password" id="inputPassword" placeholder="Password">
+				<input type="password" id="nuevo_password" placeholder="Contraseña">
+			  </div>
+			  <div class="control-group">
+				<input type="text" id="nombres" placeholder="Nombre(s)">
+			  </div>
+			  <div class="control-group">
+				<input type="text" id="apellido_paterno" placeholder="Apellido Paterno">
+			  </div>
+			  <div class="control-group">
+				<input type="text" id="apellido_materno" placeholder="Apellido Materno">
+			  </div>
+			  <div class="control-group">
+				<input type="password" id="nuevo_password" placeholder="Contraseña">
 			  </div>
 			</form>		
-			<button type="submit" class="btn btn-success">Sign in</button>
-			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			<button type="submit" class="btn btn-success">Registrar</button>
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+		  </div>
+	</div>
+
+	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h3>Iniciar Sesión</h3>
+		  </div>
+		  <div class="modal-body">
+			<form class="form-horizontal loginFrm">
+			  <div class="control-group">								
+				<input type="text" id="usuario" placeholder="Nombre de Usuario">
+			  </div>
+			  <div class="control-group">
+				<input type="password" id="password" placeholder="Contraseña">
+			  </div>
+			</form>		
+			<button type="submit" class="btn btn-success">Entrar</button>
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
 		  </div>
 	</div>
 	</li>
