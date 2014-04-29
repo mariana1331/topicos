@@ -129,7 +129,7 @@
 <!-- Sidebar end=============================================== -->
 		<div class="span9">
 			<div>
-				<h1>Productos Recientes</h1>
+				<h1>Hola Agus</h1>
 			</div>
 		</div>
 			<ul class="thumbnails">
